@@ -1,4 +1,4 @@
-function isEven(input: number): boolean {
+export function isEven(input: number): boolean {
     if ([0, 2, 4, 6, 8].includes(Number(String(input)[String(input).length - 1])) && input == Math.floor(input)) {
         return true;
     } else {
@@ -7,16 +7,16 @@ function isEven(input: number): boolean {
 }
 
 
-function isNotEven(input: number): boolean {
+export function isNotEven(input: number): boolean {
     return !isEven(input);
 }
 
 
-function isOdd(input: number): boolean {
+export function isOdd(input: number): boolean {
     return isNotEven(input) && input == Math.floor(input);
 }
 
 
-function isNotOdd(input: number): boolean {
+export function isNotOdd(input: number): boolean {
     return !isOdd(input);
 }
