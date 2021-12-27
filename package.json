@@ -17,6 +17,10 @@
     "utility"
   ],
   "author": "Ernest Izdebski (https://gist.github.com/ernieIzde8ski)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ernieIzde8ski/is-not-odd-even-ts.git"
+  },
   "license": "MIT",
   "dependencies": {
     "is-even-odd-ts": "^1.0.4"
