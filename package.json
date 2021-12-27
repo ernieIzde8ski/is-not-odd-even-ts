@@ -4,7 +4,7 @@
   "description": "Extends the functionality of is-odd-even-ts with useful functions that users may find helpful.",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "tsc"
   },
   "keywords": [
