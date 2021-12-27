@@ -1,6 +1,6 @@
 {
   "name": "is-not-odd-even-ts",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Extends the functionality of is-odd-even-ts with useful functions that users may find helpful.",
   "main": "build/index.js",
   "scripts": {
