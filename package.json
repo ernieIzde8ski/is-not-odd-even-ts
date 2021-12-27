@@ -1,11 +1,12 @@
 {
   "name": "is-not-odd-even-ts",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Extends the functionality of is-odd-even-ts with useful functions that users may find helpful.",
   "main": "build/index.js",
   "scripts": {
     "test": "mocha",
-    "start": "tsc"
+    "start": "tsc",
+    "prepublish": "git push"
   },
   "keywords": [
     "is-odd",
